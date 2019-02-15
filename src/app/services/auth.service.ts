@@ -7,7 +7,7 @@ export class AuthService {
 
     auth0 = new auth0.WebAuth({
         clientID: 'Gx13B4RUFUqZWPHu055i5wAEvs0imRoK',
-        domain: 'demibike.auth0.com ',
+        domain: 'demibike.auth0.com',
         responseType: 'token id_token',
         audience: 'http://localhost:9090',
         redirectUri: 'http://localhost:4200/callback',

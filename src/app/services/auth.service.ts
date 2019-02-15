@@ -9,7 +9,7 @@ export class AuthService {
         clientID: 'Gx13B4RUFUqZWPHu055i5wAEvs0imRoK',
         domain: 'demibike.auth0.com ',
         responseType: 'token id_token',
-        audience: 'http://localhost:8080',
+        audience: 'http://localhost:9090',
         redirectUri: 'http://localhost:4200/callback',
         scope: 'openid view:registration view:registrations'
     });
